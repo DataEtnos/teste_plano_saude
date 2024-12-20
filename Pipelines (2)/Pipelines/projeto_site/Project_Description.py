@@ -2,7 +2,7 @@ import streamlit as st
 
 st.set_page_config(
     page_title="Insurance Prediction",
-    page_icon="teste_plano_saude/Pipelines/img/stethoscope.png"
+    page_icon=".\stethoscope.png"
 )
 
 st.sidebar.header('Project Description')
@@ -10,7 +10,7 @@ st.sidebar.header('Project Description')
 st.write("# Welcome to the Insurance Prediction App 🩺")
 st.write("\n\n")
 
-st.image(r'C:\Users\Shiry\OneDrive\Área de Trabalho\Pipelines - Material de apoio\teste_plano_saude\Pipelines (2)\Pipelines\img\health_insurance_img.jpg')
+st.image('teste_plano_saude\Pipelines (2)\Pipelines\img\health_insurance_img.jpg')
 
 st.write("\n\n")
 
