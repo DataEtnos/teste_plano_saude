@@ -2,7 +2,7 @@ import pickle
 import pandas as pd
 import streamlit as st
 
-st.set_page_config(page_title="Insurance Prediction", page_icon="../img/stethoscope.png")
+st.set_page_config(page_title="Insurance Prediction", page_icon="teste_plano_saude\Pipelines (2)\Pipelines\img\stethoscope.png")
 st.sidebar.header('What if Prediction')
 st.title("Insurance prediction")
 
@@ -17,7 +17,7 @@ smoker = st.selectbox(label='Smoker', options=['no','yes'])
 
 # -- Model -- #
 
-with open('Pipelines (2)\Pipelines\data\models\model_pipeline.pkl'
+with open('teste_plano_saude\Pipelines (2)\Pipelines\data\insurance.csv'
           , 'rb') as file:
     model = pickle.load(file)
 
