@@ -17,7 +17,7 @@ smoker = st.selectbox(label='Smoker', options=['no','yes'])
 
 # -- Model -- #
 
-with open('teste_plano_saude\Pipelines (2)\Pipelines\data\insurance.csv', 'rb') as file:
+with open('teste_plano_saude\Pipelines (2)\Pipelines\data\models\model_pipeline.pkl', 'rb') as file:
     model = pickle.load(file)
 
 def prediction():
