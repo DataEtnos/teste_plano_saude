@@ -21,7 +21,7 @@ smoker = st.selectbox(label='Smoker', options=['no', 'yes'])
 
 # -- Model -- #
 
-model_path = 'teste_plano_saude/Pipelines/data/models/model_pipeline.pkl'
+model_path = r'C:\Users\Shiry\OneDrive\Área de Trabalho\Pipelines - Material de apoio\teste_plano_saude\Pipelines (2)\Pipelines\data\models\model_pipeline.pkl'
 try:
     with open(model_path, 'rb') as file:
         model = pickle.load(file)
